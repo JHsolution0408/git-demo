@@ -31,26 +31,23 @@ export default function Home() {
 
   return (
     <>
-      <div>Hello Git!</div>
-      <div>
-        <p>Count: {count}</p>
+      <div>Hello Git! Current count is {count}</div>
 
-        <div>
-          <button
-            type="button"
-            style={buttonStyle}
-            onClick={addCount}
-          >
-            Click to add count
-          </button>
-          <button
-            type="button"
-            style={buttonStyle}
-            onClick={decreaseCount}
-          >
-            Click to decrease count
-          </button>
-        </div>
+      <div>
+        <button
+          type="button"
+          style={buttonStyle}
+          onClick={addCount}
+        >
+          Click to add count
+        </button>
+        <button
+          type="button"
+          style={buttonStyle}
+          onClick={decreaseCount}
+        >
+          Click to decrease count
+        </button>
       </div>
     </>
   );
