@@ -32,6 +32,8 @@ export default function Home() {
   return (
     <>
       <div>Hello Git!</div>
+      <div>Pull Request test</div>
+
       <div>
         <p>Count: {count}</p>
 
