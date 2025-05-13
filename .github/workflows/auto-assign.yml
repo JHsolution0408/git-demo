@@ -13,8 +13,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # using the `org/team_slug` or `/team_slug` syntax to add git team as reviewers
           reviewers: |
-            jh-eunhee
-            jameskim
+            jh-kimjisoon
           assignees: |
             jh-eunhee
           skipKeywords: wip, draft
